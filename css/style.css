@@ -1,0 +1,584 @@
+*{
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif; /* No se usa*/
+    margin: 0;
+    box-sizing: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+nav{
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #e5e5e5 0%, rgba(238, 244, 237, 1) 100%);
+    background-color: transparent 1%;
+    opacity: 0.9;
+}
+.navBar{
+    background-color: #e5e5e5;
+    margin: inherit;
+}
+li{
+    display:inline-flex;
+    float: initial;
+    text-decoration: none;
+    margin-left: 2%;
+}
+a{
+    text-decoration: none;
+    color: #b1a7a6;
+}
+li.vaccination{
+    margin-right: 35%;
+}
+li.vaccination:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+.vaccination{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #134070;   /*Color para vacNavBar*/
+    text-shadow: .8px .4px;
+}
+a.normal{
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;   
+    border: 1px;
+}
+a.normal:hover{
+    text-decoration: none;
+    border: 2.5px solid #e5e5e5 ;
+    border-radius: 2px;
+    color: #b1a7a6;
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    background-color: #134070;
+    max-width: 100%;
+    padding: .3em;
+    border-style: solid;
+    border-radius: 15px;
+    background-image: linear-gradient(to top, #8DA9C4 .3%, rgba(238, 244, 237, 1) 100%);
+}
+button:hover{
+    background-image: linear-gradient(to top, #EEF4ED .3%, rgba(141, 169, 196, 1) 100%);
+    transition-delay: 0s;
+    padding: .4em;
+}
+.buttonInicio{
+    color: #134070;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+.imgNurse1{
+    flex-direction: row-reverse;
+    width: 58%;
+    
+}
+aside{
+    display: flex;
+    width: 100%;
+    height: 33em;
+    float: left;
+    background-image: url(../images/nurse1.png);
+    background-repeat: no-repeat;
+    background-size: 61.4%;
+}
+.infoNurse1{
+    float: right;
+    width: 30%;
+    margin: .3% 7% 1% 7%;
+}
+h1{
+    font-weight:900;
+    font-size: 3.3em;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #134074;
+}
+.iconMensaje{
+    display: inline;
+}
+li.parrafo1{
+    margin-left: 0;
+}
+.fa-heart{
+    color: red;
+    padding-left: 0%;
+}
+.fa-shield-blank{
+    color: gold;
+}
+p{
+    font-size: 16px;
+}
+#seccionLista2{
+    
+   /* background-image: linear-gradient(to bottom, #e5e5e5 0%, rgba(238, 244, 237, 1) 100%);*/
+    max-height: 8em;
+}
+.containerLista2{
+    margin-top: 42%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    padding-bottom: 1%;
+    border: #f5f3f4;
+    border-width: 1vh;
+    border-style: solid;;
+    border-radius: 13px;
+    background-color: #e5e5e5;
+    background: transparent;    
+    box-sizing: border-box;
+    width: 73%;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+}
+.lista2{
+    margin-top: 0%;
+    padding-top: 0;
+    padding-left: 10%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+dl{
+    display:flex;
+    margin-left: 5%;
+}
+.pTprotege{
+    text-decoration: none;
+}
+.pTprotege:hover{
+    text-decoration: underline gold 2px;
+    
+}
+.pVacuna{
+    text-decoration: none;
+}
+.pVacuna:hover{
+    text-decoration: underline red 2px;
+}
+dd{
+    margin-left: 0%;
+    padding-top: 1%;
+}
+label{
+    display: block;
+    font: 1rem 'Nunito', sans-serif;
+}
+
+input, label{
+    margin: 0;
+}
+#date{
+    margin-top: 13%;
+    margin-left: 1.5px;
+}
+button.buttonLista2{
+    width: 70px;
+    height: 38px;
+    border-style: none;
+    font-size: medium;
+    font-family: 'Nunito', sans-serif;
+}
+.letrasDeButtonLista2{
+    color: black;
+}
+.fa-clock{
+    padding-right: 3px;
+    color: #134074;
+}
+.fa-location-dot{
+    padding-right: 5px;
+    color: #134074;
+}
+.fa-calendar-days{
+    padding-right: 5px;
+    color: #134074;
+}
+.fa-syringe{
+    padding-right: 5px;
+    color: #134074;
+}
+div.vacunasLogos{
+    margin-top: 3rem;
+    padding-top: 3%;
+}
+ul.listaLogosdeVacunas{
+    display: flex;
+    width: 3rem;
+    
+}
+.astraZeneca{
+    width: 252px;
+    height: 56.7px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+.moderna{
+    width: 252px;
+    height: 56.7px;
+    padding-left: 44px;
+    padding-top: 20px;
+}
+.pfizer{
+    width: 252px; 
+    height: 81.9px;
+    padding-left: 44px;
+    padding-top: 20px;
+}
+.sinovac{
+    width: 252px;
+    height: 56.7px;
+    padding-left: 44px;
+    padding-top: 20px;
+}
+section.preguntaInformacion{
+    display:table-cell;
+    padding: 10% 35% 7% 13%;
+    
+}
+h4.preguntaVacuna{
+    font-size:xx-large;
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+    color: #134074;
+}
+p.informacionVacuna{
+    font-size: larger;
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+    color: #403d39;
+}
+ol.tarjetasBeneficios{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin-right: 4%;
+    margin-left: 2%;
+}
+ol.tituloInformacionTarjeta1{
+    padding-left: 0%;
+}
+ol.tituloInformacionTarjeta2{
+    padding-left: 0%;
+}
+ol.tituloInformacionTarjeta3{
+    padding-left: 0%;
+}
+ol.tituloInformacionTarjeta4{
+    padding-left: 0%;
+}
+i.fa-virus-slash{
+    background-color: #e2eafc;
+    border-style: solid;
+    border-color: #f5f3f4;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-bottom: 5%;
+    margin-top: -7%;
+    padding: 2.5%;
+    font-size: 20pt;
+    color: #134070
+}
+li.primeraTarjeta{
+    display: block;
+    padding: 3% 0% 3% 1%;
+    border-style: solid;
+    border-color: #f5f3f4;
+    border-width: 1vh;
+    border-radius: 7%;
+    background-color: white;
+}
+p.tituloTarjeta1{
+    font-size: larger;
+    font-weight: bold;
+    color: #134070;
+}
+span.infoTarjeta1{
+    font-size: medium;
+    font-weight: 600;
+    color: #403d39;
+}
+i.fa-shield-virus{
+    background-color: #e2eafc;
+    border-style: solid;
+    border-color: #f5f3f4;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-bottom: 5%;
+    margin-top: -7%;
+    padding: 3%;
+    font-size: 20pt;
+    color: #134070;
+}
+li.segundaTarjeta{
+    display: block;
+    padding: 3% 0% 3% 1%;
+    border-style: solid;
+    border-color: #f5f3f4;
+    border-width: 1vh;
+    border-radius: 7%;
+    background-color: white;
+}
+p.tituloTarjeta2{
+    font-size: larger;
+    font-weight: bold;
+    color: #134070;
+}
+span.infoTarjeta2{
+    font-size: medium;
+    font-weight: 600;
+    color: #403d39;
+}
+i.fa-users{
+    background-color: #e2eafc;
+    border-style: solid;
+    border-color: #f5f3f4;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-bottom: 5%;
+    margin-top: -7%;
+    padding: 2.5%;
+    font-size: 20pt;
+    color: #134070;
+}
+li.terceraTarjeta{
+    display: block;
+    padding: 3% 1% 3% 1%;
+    border-style: solid;
+    border-color: #f5f3f4;
+    border-width: 1vh;
+    border-radius: 7%;
+    background-color: white;
+}
+p.tituloTarjeta3{
+    font-size: larger;
+    font-weight: bold;
+    color: #134070;
+}
+span.infoTarjeta3{
+    font-size: medium;
+    font-weight: 600;
+    color: #403d39;
+}
+i.fa-arrow-trend-up{
+    background-color: #e2eafc;
+    border-style: solid;
+    border-color: #f5f3f4;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-bottom: 5%;
+    margin-top: -7%;
+    padding: 2.5%;
+    font-size: 20pt;
+    color:#134070;
+}
+li.cuartaTarjeta{
+    display: block;
+    padding: 3% 1% 3% 1%;
+    border-style: solid;
+    border-color: #f5f3f4;
+    border-width: 1vh;
+    border-radius: 7%;
+    background-color: white;
+}
+p.tituloTarjeta4{
+    font-size: larger;
+    font-weight: bold;
+    color: #134070;
+}
+span.infoTarjeta4{
+    font-size: medium;
+    font-weight: 600;
+    color: #403d39;
+}
+section.preparacion{
+    display:flex;
+    padding: 5% 0% 5% 0%;
+   
+}
+h4.tituloPreparacionVacuna{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5%;
+    color: #134070;
+}
+p.parrafoPreparacionVacuna{
+    font-size: medium;
+    font-weight: 600;
+    text-align: center;
+    color: #403d39;
+    padding-bottom: 4%;
+}
+details.contentPreparacion{
+    display: block;
+    padding: 0% 9% 0% 15%;
+    margin-left: 10%;
+    margin-top: 1.5%;
+    border-style: solid;
+    border-color: #f5f3f4;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: white;
+    width: 55%;
+}
+img.imagenPreparacion{
+    float: right;
+    width: 53%;
+    height: 42%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 10%;
+}
+summary.tituloPreparacion{
+    padding: 4%;
+    color: #134074;
+}
+i.fa-shield{
+    width: 5%;
+    padding-right: 5px;
+    padding-left: 10px;
+    color:#134070;
+}
+p.parrafoPreparacion{
+    color: #403d39;
+}
+i.fa-rectangle-xmark{
+    width: 5%;
+    padding-right: 5px;
+    padding-left: 10px;
+    color:#134070;
+}
+i.fa-utensils{
+    width: 5%;
+    padding-right: 5px;
+    padding-left: 10px;
+    color:#134070;
+}
+i.fa-bed{
+    width: 5%;
+    padding-right: 5px;
+    padding-left: 10px;
+    color:#134070;
+}
+i#heart{
+    width: 5%;
+    padding-right: 5px;
+    padding-left: 10px;
+    color:#134070;
+}
+img.imagenComunicarse{
+    float: left;
+    width: 55%;
+    padding-top: 5%;
+    margin-top: 5%;
+}
+section.contactoInformacion{
+    padding-top: 7%;
+    margin-bottom: 20px;
+}
+h4.contacto{
+    font-size: xx-large;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    padding-top: 1%;
+    color: #134070;
+}
+p.botonesContacto{
+    font-size: larger;
+    text-align: justify;
+    padding: 0px 22px 0px 57%;
+    color: #403d39;
+}
+ol.cajaLlamadaChat{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4em;
+}
+ol.cajaVideollamadaMensaje{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4em;
+}
+li.caja1{
+    display: inline-grid;
+    border-style: solid;
+    border-color: #f5f3f4;
+    border-radius: 10px;
+    width: 25%;
+    padding: 15px;
+}
+li.caja2{
+    display: inline-grid;
+    border-style: solid;
+    border-color: #f5f3f4;
+    border-radius: 10px;
+    width: 25%;
+    padding: 15px;
+}
+li.caja3{
+    display: inline-grid;
+    border-style: solid;
+    border-color: #f5f3f4;
+    border-radius: 10px;
+    width: 25%;
+    padding: 15px;
+}
+li.caja4{
+    display: inline-grid;
+    border-style: solid;
+    border-color: #f5f3f4;
+    border-radius: 10px;
+    width: 25%;
+    padding: 15px;
+}
+a.cajaBoton{
+    display: block;
+}
+h6{
+    font-size: medium;
+}
+button.cajaUltima{
+    padding: 10%;
+    border-style: none;
+    font-family: 'Nunito', sans-serif;
+    color: #134070;
+}
+i#icono{
+    color: #134070;
+}
+section.footer{
+    display: inline-flex;
+    background-color: #8DA9C4;
+    width: 101%;
+}
+h6.footerVacunacion{
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    color: #134070;
+    width: 21%;
+    margin: 10% 0% 10% 10%; 
+}
+p.parrafoFooter{
+    width: 45%;
+    font-size: medium;
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+    color: #403d39;
+    margin-left: 10%;
+    text-align: justify;
+}
+div.infoFooter{
+    display:flex;
+}
