@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display&family=Nunito&family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/fontawesome-free-6.0.0-web/css/all.min.css">
+    <title>Jordanada De VacunaciónMX</title>
+</head>
+<body>
+    <nav class="navBar"> <!-- NavBar-->
+        <ul>
+            <li class="vaccination">
+                <a class="vaccination" href="">Vacunación</a>
+            </li>
+            <li class="normal">
+                <a class="normal" href="">Inicio</a>
+            </li>
+            <li class="normal">
+                <a class="normal" href="">Educación</a>
+            </li>
+            <li class="normla">
+                <a class="normal" href="">Información</a>
+            </li>
+            <li class="normal">
+                <a class="normal" href="">Contacto</a>
+            </li>
+            <li>
+                <button class="buttonInicio">
+                    <a class="buttonInicio" href="">Sing In</a>
+                </button>
+            </li>
+        </ul>
+    </nav>
+    <section> <!--img Nurse e Info-->
+        <aside>
+            <div>
+                   <!-- <img class="imgNurse1" src="../images/nurse1.png" alt="Enfermera guiñando el ojo derecho, su mano izquierda está con el pugar arriba en señal de algo positivo y su mano derecha sostiene una jeringa">  
+                                Posiblemente se retira--> 
+                <div class="infoNurse1">
+                    <h1>
+                        Luchamos contra el virus con vacunas para todos
+                    </h1>
+                        <br>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dicta officia eos, ab voluptas quidem libero eveniet assumenda saepe magni cupiditate sequi perferendis! Eos labore dignissimos similique, iure ab aut.</p>
+                        <br>
+                    <ul class="iconMensaje">
+                        <li class="parrafo1">
+                            <p class="pTprotege">
+                                <i class="fa-solid fa-shield-blank"></i>
+                                Te protege
+                            </p>
+                        </li>
+                        <li class="parrafo2">
+                            <p class="pVacuna">
+                                <i class="fa-solid fa-heart"></i>
+                                Escoge tu vacuna
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </section>
+    <section id="seccionLista2">
+        <div class="containerLista2">
+            <div class="lista2">
+                <p>
+                    <i class="fa-solid fa-clock"></i>
+                    Agenda tu cita
+                </p>
+                <br>
+            </div>      
+            <dl class="lugarCd">
+                <i class="fa-solid fa-location-dot"></i>
+                Lugar
+                <dd> <br> 
+                    <select name="Ciudad" id="Ciudad">
+                        <option value="0">Estado</option>
+                        <option value="1">Aguascalientes</option>
+                        <option value="2">Baja California</option>
+                        <option value="3">Baja California Sur</option>
+                        <option value="4">Campeche</option>
+                        <option value="5">Chiapas</option>
+                        <option value="6">Chihuahua</option>
+                        <option value="7">Ciudad de México</option>
+                        <option value="8">Coahuila</option>
+                        <option value="9">Colima</option>
+                        <option value="10">Durango</option>
+                        <option value="11">Guanajuato</option>
+                        <option value="12">Guerrero</option>
+                        <option value="13">Hidalgo</option>
+                        <option value="14">Jalisco</option>
+                        <option value="15">Estado de México</option>
+                        <option value="16">Michoacán</option>
+                        <option value="17">Morelos</option>
+                        <option value="18">Nayarit</option>
+                        <option value="19">Nuevo León</option>
+                        <option value="20">Oaxaca</option>
+                        <option value="21">Puebla</option>
+                        <option value="22">Querétaro</option>
+                        <option value="23">Quintana Roo</option>
+                        <option value="24">San Luis Potosí</option>
+                        <option value="25">Sinaloa</option>
+                        <option value="26">Sonora</option>
+                        <option value="27">Tabasco</option>
+                        <option value="28">Tamaulipas</option>
+                        <option value="29">Tlaxcala</option>
+                        <option value="30">Veracruz</option>
+                        <option value="31">Yucatán</option>
+                        <option value="32">Zacatecas</option>
+                    </select>
+                </dd>
+                <dl class="fecha">
+                    <i class="fa-solid fa-calendar-days"></i>
+                   <label for="date">Fecha</label>
+                   <input type="date" id="date" name="date-vacuna"
+                    value="2022-03-01"
+                    min="2022-01-02" max="2022-31-31">
+                </dl>
+                <dl class="vacunaTipo"> 
+                    <i class="fa-solid fa-syringe"></i>
+                    Vacuna
+                    <dd> <br> 
+                        <select name="Vacuna" id="Vacuna">
+                            <option value="tipo">Escoge tu vacuna</option>
+                            <option value="moderna">Moderna</option>
+                            <option value="pfizer">Pfizer</option>
+                            <option value="astrazeneca">AstraZeneca</option>
+                            <option value="sinovac">Sinovac</option>
+                        </select>
+                    </dd>
+                </dl>
+                <dl>
+                    <button class="buttonLista2">
+                        <a class="letrasDeButtonLista2" href="">Enviar</a>
+                    </button>
+                </dl>
+            </dl>
+        </div>
+    </section>
+    <section>
+        <div class="vacunasLogos">
+            <ul class="listaLogosdeVacunas">
+                <li class="animate__bounceIn">
+                    <img class="astraZeneca" src="../images/astrazeneca-logo.png" alt="">
+                </li>
+                <li>
+                    <img class="moderna" src="../images/Moderna_logo.svg.png" alt="">
+                </li>
+                <li>
+                    <img class="pfizer" src="../images/Pfizer_logo.png" alt="">
+                </li>
+                <li>
+                    <img class="sinovac" src="../images/Sinovac_logo.svg.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <section class="preguntaInformacion">
+            <h4 class="preguntaVacuna">¿Por qué deberías vacunarte?</h4> <br>
+            <p class="informacionVacuna">Te queremos presentar algunos beneficios que tiene el aplicarse la vacuna contra el COVID-19, estos pueden favorecerte a ti y a los tuyos. <br> Por favor considera vacunarte.</p>
+        </section>
+        <section>
+            <ol class="tarjetasBeneficios">
+                <li class="primeraTarjeta">
+                    <i class="fa-solid fa-virus-slash"></i>
+                        <ol class="tituloInformacionTarjeta1">
+                            <li>
+                                <p class="tituloTarjeta1"> Minimiza la propagación <br>de contagios
+                                    <span class="infoTarjeta1">
+                                        <br><br> La vacuna ha demostrado ser eficaz para evitar que alguien cerca a nosotros se contagie con el coronavirus.
+                                    </span>
+                                </p>
+                            </li>
+                        </ol>
+                </li>
+                <li class="segundaTarjeta">
+                    <i class="fa-solid fa-shield-virus"></i>
+                        <ol class="tituloInformacionTarjeta2">
+                            <li>
+                                <p class="tituloTarjeta2">Crea anticuerpos
+                                    <span class="infoTarjeta2">
+                                        <br><br> Se ha demostrado que la vacuna contra COVID-19 ayuda a formar anticuerpos en el sistema inmunológico.
+                                    </span>
+                                </p>
+                            </li>
+                        </ol>
+                </li>
+                <li class="terceraTarjeta">
+                    <i class="fa-solid fa-users"></i>
+                        <ol class="tituloInformacionTarjeta3">
+                            <li>
+                                <p class="tituloTarjeta3">Proteges a tu familia
+                                    <span class="infoTarjeta3">
+                                       <br><br> Los beneficios de la vacuna covid-19: <br> son que la vacuna que recibimos también puede ayudar a proteger a las personas que nos rodean.
+                                    </span>
+                                </p>
+                            </li>
+                        </ol>
+                </li>
+                <li class="cuartaTarjeta">
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                        <ol class="tituloInformacionTarjeta4">
+                            <li>
+                                <p class="tituloTarjeta4">Puedes crear inmunidad <br>ante el virus
+                                    <span class="infoTarjeta4">
+                                       <br><br> La vacunación  contra el <br> COVID-19 también tiene beneficios ya que puede crear inmunidad de grupo o inmunidad de rebaño.
+                                    </span>
+                                </p>
+                            </li>
+                        </ol>
+                </li>
+            </ol>
+        </section>
+        <br><br>
+        <section>
+            <section class="preparacion">
+                <section class="preparacionVacuna">
+                    <h4 class="tituloPreparacionVacuna">Preparacion antes de la vacuna</h4>
+                        <p class="parrafoPreparacionVacuna">El éxito de las vacunas está fuertemente influenciado por la fuerza del sistema inmunológico del cuerpo. Por lo tanto, hay varias cosas que se pueden intentar para que la vacuna COVID-19 funcione:</p>
+                            <details class="contentPreparacion">
+                                <summary class="tituloPreparacion">
+                                    <i class="fa-solid fa-shield"></i>
+                                    Evitar las bebidas alcohólicas</summary>
+                                <p class="parrafoPreparacion">Para evitar algun tipo de efecto secundario, recomendamos no ingenir bebidas alcoholicas.</p>
+                            </details>
+                            <details open class="contentPreparacion">
+                                <summary class="tituloPreparacion">
+                                    <i class="fa-solid fa-rectangle-xmark"></i>
+                                    Evitar el estrés</summary>
+                                <p class="parrafoPreparacion">El estrés tiene un profundo efecto en el trabajo inmunológico.</p>
+                            </details>
+                            <details class="contentPreparacion">
+                                <summary class="tituloPreparacion">
+                                    <i class="fa-solid fa-utensils"></i>
+                                    Comer alimentos saludables</summary>
+                                <p class="parrafoPreparacion">Una buena alimentación ayuda a nuestro sistema inmunológico</p>
+                            </details>
+                            <details class="contentPreparacion">
+                                <summary class="tituloPreparacion">
+                                    <i class="fa-solid fa-bed"></i>
+                                    Dormir lo suficiente</summary>
+                                <p class="parrafoPreparacion">El descanso ayuda que nustra recupreacion pueda ser rápida.</p>
+                            </details>
+                            <details class="contentPreparacion">
+                                <summary class="tituloPreparacion">
+                                    <i class="fa-solid fa-heart" id="heart"></i>
+                                    Hacer ejercicio o actividad física</summary>
+                                <p class="parrafoPreparacion">El hacer ejecicio nos ayuda pues nuestro cuerpo resiste más a los posibles efectos secundarios.</p>
+                            </details>
+                </section>     
+                <img class="imagenPreparacion" src="../images/nurse4.jpg" alt="">
+            </section>
+        </section>
+    </section>
+    <section class="recursoDeContacto">
+        <img class="imagenComunicarse" src="../images/doctoraTelefono.jpg" alt="">
+        <section>
+            <section class="contactoInformacion">
+                <h4 class="contacto">
+                    Contacto de emergencia
+                </h4>
+                <p class="botonesContacto">
+                    Póngase en contacto con uno de los contactos que figuran a continuación si usted o su familia se sienten mal y tienen síntomas similares a los del covid-19, asegúrese también de cuidarse antes de informarnos:                </p>
+            </section>
+            <section>
+                <ol class="cajaLlamadaChat">
+                    <li class="caja1">
+                        <h6> 
+                            <i class="fa-solid fa-square-phone" id="icono"></i>
+                            Lamada
+                        </h6> <br><br>
+                        <button class="cajaUltima">Llama</button>
+                    </li>
+                    <li class="caja2">
+                        <h6> 
+                            <i class="fa-solid fa-comment-dots" id="icono"></i>
+                            Chat
+                        </h6> <br><br>
+                        <button class="cajaUltima">Chatea</button> 
+                    </li>
+                </ol>
+            </section>
+            <section>
+                <ol class="cajaVideollamadaMensaje">
+                    <li class="caja3">
+                        <h6>
+                            <i class="fa-solid fa-video" id="icono"></i>
+                            Video llamada
+                        </h6> <br><br>
+                        <button class="cajaUltima">Llama</button> 
+                    <li class="caja4">
+                        <h6>
+                            <i class="fa-solid fa-envelope" id="icono"></i>
+                            Mensaje de texto
+                        </h6> <br><br>
+                        <button class="cajaUltima">Mensaje</button>
+                    </li>
+                </ol>
+            </section>     
+        </section>
+    </section>
+    <br><br><br><br><br>
+    <footer>
+        <section class="footer">
+            <div>
+                <h6 class="footerVacunacion">Vacunación</h6>
+                    <p class="parrafoFooter">Nuestro objetivo es ayudar a que no sean afectados por el Covid-19</p>
+            </div>
+            <div class="infoFooter">
+                <dl>Acerca de
+                    <dl>
+                        <p>Acerca de nostros</p>
+                        <p>Características</p>
+                        <p>Blog</p>
+                    </dl>
+                </dl>
+                <dl>Empresa
+                    <dd>
+                        <p>¿Cómo trabajamos?</p>
+                        <p>Capital</p>
+                        <p>Seguridad</p>
+                    </dd>
+                </dl>
+                <dl>Apoyo
+                    <dd>
+                        <p>FAQs</p>
+                        <p>Soporte</p>
+                        <p>Cotacto</p>
+                    </dd>
+                </dl>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
