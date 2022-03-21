@@ -1,5 +1,4 @@
 *{
-    font-family: 'Noto Serif Display', serif;
     font-family: 'Nunito', sans-serif;
     font-family: 'Nunito Sans', sans-serif; /* No se usa*/
     margin: 0;
@@ -120,6 +119,7 @@ li.parrafo1{
 }
 p{
     font-size: 16px;
+    color: #403d39;
 }
 #seccionLista2{
     
@@ -560,11 +560,12 @@ i#icono{
 section.footer{
     display: inline-flex;
     background-color: #8DA9C4;
-    width: 101%;
+    width: 100%;
+    padding-bottom: 5%;
 }
 h6.footerVacunacion{
     font-size: larger;
-    font-weight: bold;
+    font-weight: 900;
     font-family: 'Nunito', sans-serif;
     color: #134070;
     width: 21%;
@@ -581,4 +582,18 @@ p.parrafoFooter{
 }
 div.infoFooter{
     display:flex;
+    flex-wrap: nowrap;
+    padding-left: 15%;
+}
+dl.listaFooter{
+    display: inline-table;
+    padding-top: 11%;
+    margin-left: 30%;
+    color: #134074;
+    font-size: larger;
+    font-weight: 800;
+    
+}
+dd.ultimoFooter{
+    display: table-footer-group;
 }
